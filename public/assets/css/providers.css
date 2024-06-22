@@ -1,0 +1,57 @@
+
+
+table {
+    background: #012B39;
+    border-radius: 0.25em;
+    border-collapse: collapse;
+    margin: 1em;
+    width: 1050px;
+}
+th {
+    border-bottom: 2px solid #bbb;
+    color: #E2B842;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    text-align: left;
+    border-right: 2px solid #bbb;
+
+}
+td {
+    color: #fff;
+    font-weight: 400;
+    padding: 0.65em 1em;
+    border-right: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+
+}
+
+tbody tr {
+    transition: background 0.25s ease;
+}
+
+tr:hover{
+    background-color:#009879;
+}
+tr:nth-child(1):hover{
+    background-color: #012B39;
+}
+.removeprovider{
+    color: #E2B842;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+}
+.removeprovider:hover{
+    text-decoration: underline;
+}
+.merged-cell {
+    font-weight: bold;
+    text-align: center;
+    color: #E2B842;
+    font-size: 25px;
+}
+.merged-cell:hover{
+    background-color: #012B39;
+}
